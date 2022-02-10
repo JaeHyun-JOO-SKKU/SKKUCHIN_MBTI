@@ -6,18 +6,14 @@ const select = []; // 결과 선택시 배열 생성
 
 function calResult(){
     var pointArray = [
-        {name: 'mouse', value:0, key:0},
-        {name: 'cow', value:0, key:1},
-        {name: 'tiger', value:0, key:2},
-        {name: 'rabbit', value:0, key:3},
-        {name: 'dragon', value:0, key:4},
-        {name: 'snake', value:0, key:5},
-        {name: 'horse', value:0, key:6},
-        {name: 'sheep', value:0, key:7},
-        {name: 'mmonkey', value:0, key:8},
-        {name: 'chick', value:0, key:9},
-        {name: 'dog', value:0, key:10},
-        {name: 'pig', value:0, key:11},
+        {name: 'ENT', value:0, key:0},
+        {name: 'ENF', value:0, key:1},
+        {name: 'EST', value:0, key:2},
+        {name: 'ESF', value:0, key:3},
+        {name: 'INT', value:0, key:4},
+        {name: 'INF', value:0, key:5},
+        {name: 'IST', value:0, key:6},
+        {name: 'ISF', value:0, key:7},
     ]
     for (let i = 0; i < endPoint; i++){
         var target = qnaList[i].a[select[i]];
