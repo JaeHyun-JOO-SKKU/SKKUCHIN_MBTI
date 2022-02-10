@@ -1,0 +1,9 @@
+/* 전체적인 CSS */
+body{
+    background-color: #22352B;
+}
+
+*{
+    font-family: 'Jua', sans-serif;
+    font-size: 18px;
+}
