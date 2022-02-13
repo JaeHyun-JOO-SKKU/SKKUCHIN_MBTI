@@ -13,3 +13,18 @@
 #resultDesc{
     font-size: 18px;
 }
+
+.kakao{
+    color: black;
+    background-color: #FEE500;
+    font-size: 18px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+#shareResult{
+    background-color: whitesmoke;
+    width: 95%;
+    text-align: center;
+    border-radius: 20px;
+}

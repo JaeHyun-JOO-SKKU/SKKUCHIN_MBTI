@@ -6,14 +6,22 @@ const select = []; // 결과 선택시 배열 생성
 
 function calResult(){
     var pointArray = [
-        {name: 'ENT', value:0, key:0},
-        {name: 'ENF', value:0, key:1},
-        {name: 'EST', value:0, key:2},
-        {name: 'ESF', value:0, key:3},
-        {name: 'INT', value:0, key:4},
-        {name: 'INF', value:0, key:5},
-        {name: 'IST', value:0, key:6},
-        {name: 'ISF', value:0, key:7},
+        {name: 'ISTJ', value:0, key:0},
+        {name: 'ISFJ', value:0, key:1},
+        {name: 'INFJ', value:0, key:2},
+        {name: 'INTJ', value:0, key:3},
+        {name: 'ISTP', value:0, key:4},
+        {name: 'ISFP', value:0, key:5},
+        {name: 'INFP', value:0, key:6},
+        {name: 'INTP', value:0, key:7},
+        {name: 'ESTP', value:0, key:8},
+        {name: 'ESFP', value:0, key:9},
+        {name: 'ENFP', value:0, key:10},
+        {name: 'ENTP', value:0, key:11},
+        {name: 'ESTJ', value:0, key:12},
+        {name: 'ESFJ', value:0, key:13},
+        {name: 'ENFJ', value:0, key:14},
+        {name: 'ENTJ', value:0, key:15},
     ]
     for (let i = 0; i < endPoint; i++){
         var target = qnaList[i].a[select[i]];
